@@ -7,6 +7,7 @@
 
     <!-- dependencies -->
     <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore-min.js"></script>
     <!-- your scripts -->
     <script src="env/config.js"></script>
     <script src="scripts/app.js"></script>
@@ -14,7 +15,19 @@
   <body>
     <div id="main">
       <h1>chatterbox</h1>
-      <!-- Your HTML goes here! -->
+      <span>Room:</span>
+      <select>
+        <option value="lobby">Lobby</option>
+        <option value="4chan">4Chan</option>
+        <option value="lolroom">Lol Room</option>
+        <option value="room1">Room 1</option>
+        <option value="iOS test">iOS Test</option>
+        <option value="">Empty</option>
+      </select>
+      <form> 
+        <input type="text">
+        <input type="button" value="Submit">
+      </form>
     </div>
   </body>
 </html>
